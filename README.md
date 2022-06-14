@@ -3,7 +3,7 @@
 <h3 align="center"> Rodando a Aplicação</h3>
 
  ### Clone este repositório
- - git clone https://github.com/andersoncsousa/dashboard-next-teste.git
+ - git clone https://github.com/andersoncsousa/funnelever-dashboard-nextjs
  ### Acesse a pasta do projeto no terminal, a partir do diretório ao qual o comando de clonagem foi executado
  - cd dashboard-next-teste
 
