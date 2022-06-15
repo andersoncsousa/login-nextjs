@@ -11,6 +11,7 @@ import img from '../images/logo.png';
 import img2 from '../images/feature-01.png';
 
 
+
 const HeaderStyle = styled.div`
   display: flex;
   width: 100%;
@@ -48,6 +49,10 @@ export default function inicio() {
                 <title>Início</title>
                 <meta name="description" content="Início" />
                 <link rel="icon" href="/favicon.png" />
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossOrigin="anonymous"></link>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossOrigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossOrigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossOrigin="anonymous"></script>
             </Head>
             <LayoutHeader>
                 <HeaderStyle>
@@ -75,6 +80,7 @@ export default function inicio() {
                     />
                 </HeaderStyle>
             </LayoutHeader>
+            
             <div className={styles.inicioContent}>
                 <div className={styles.inicioBox}>
                     <h2>COMEÇE JÁ!</h2>
@@ -106,6 +112,7 @@ export default function inicio() {
                     </Link>
                 </div>
             </div>
+
             <div className={styles.inicioSessao2}>
                 <h2>
                     UM POUCO DOS NOSSOS CLIENTES.
@@ -117,6 +124,7 @@ export default function inicio() {
                     <Image src={img} alt="Image" width={200} height={50} />
                 </div>
             </div>
+
             <div className={styles.inicioSessao3}>
                 <h2 style={{fontSize: '1.8rem', marginBottom: '0', paddingBottom: '0',}}>
                     Conheça Nossos Planos
@@ -141,7 +149,7 @@ export default function inicio() {
                             </div>
                             <div className={styles.boxPlanosDescricao}>
                                 <ul>
-                                    <li> 1 usuário</li>
+                                    <li>1 usuário</li>
                                     <li> Até 10.000 visualizações de página</li>
                                     <li> Até 3 Funis</li>
                                     <li> +75 ícones de Integração</li>
@@ -221,7 +229,7 @@ export default function inicio() {
             </div>
 
             <div className={styles.inicioSessao4}> 
-                <h5 style={{paddingTop: '20px',color: '#00bcd4', fontSize: '13px'}}>
+                <h5 style={{margin:'8px',paddingTop: '20px',color: '#00bcd4', fontSize: '13px'}}>
                     Como a Funnelever ajuda sua empresa.
                 </h5>
                 <h5 style={{paddingBottom: '20px',}}>
@@ -230,7 +238,7 @@ export default function inicio() {
                 <div className={styles.inicioSessaoBoxEmpresas}>
                     <div className={styles.cardEmpresasRow}>
                         <div className={styles.cardEmpresas}>
-                            <Image src={img2} alt="Image" width={100} height={80} />
+                            <Image src={img2} alt="Image" width={75} height={56} />
                             <div className={styles.cardEmpresasBody}>
                                 <h3>
                                     Insights sem cientistas de dados
@@ -241,7 +249,7 @@ export default function inicio() {
                             </div>
                         </div>
                         <div className={styles.cardEmpresas}>
-                            <Image className={styles.cardEmpresasImage} src={img2} alt="Image" width={100} height={80} />
+                            <Image className={styles.cardEmpresasImage} src={img2} alt="Image" width={75} height={56} />
                             <div className={styles.cardEmpresasBody}>
                                 <h3>
                                     Colete e conecte
@@ -256,7 +264,7 @@ export default function inicio() {
                 <div className={styles.inicioSessaoBoxEmpresas}>
                     <div className={styles.cardEmpresasRow}>
                         <div className={styles.cardEmpresas}>
-                            <Image src={img2} alt="Image" width={100} height={80} />
+                            <Image src={img2} alt="Image" width={75} height={56} />
                             <div className={styles.cardEmpresasBody}>
                                 <h3>
                                     Tome Decisões Mais Inteligentes.
@@ -267,7 +275,7 @@ export default function inicio() {
                             </div>
                         </div>
                         <div className={styles.cardEmpresas}>
-                            <Image src={img2} alt="Image" width={100} height={80} />
+                            <Image src={img2} alt="Image" width={75} height={56} />
                             <div className={styles.cardEmpresasBody}>
                                 <h3>
                                     Entenda seus clientes.
@@ -281,6 +289,64 @@ export default function inicio() {
                 </div>
                 
             </div>
+
+            <div className={styles.inicioSessao5}> 
+                <div className={styles.inicioBoxDepoimento}> 
+                    <h5 style={{margin:'8px',paddingTop: '20px',color: '#00bcd4', fontSize: '13px'}}>
+                        Depoimentos
+                    </h5>
+                    <h5 style={{paddingBottom: '20px',}}>
+                        O que estão falando da Funnelever?
+                    </h5>
+                    <div id="carouselDepoimento" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-indicators">
+                            <button style={{background: 'rgb(0, 188, 212)', borderRadius: '50px',borderTop: 'none', width: '13px', height: '3px'}} type="button" data-bs-target="#carouselDepoimento" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button style={{background: 'rgb(0, 188, 212)', borderRadius: '50px',borderTop: 'none', width: '13px', height: '3px'}} type="button" data-bs-target="#carouselDepoimento" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button style={{background: 'rgb(0, 188, 212)', borderRadius: '50px',borderTop: 'none', width: '13px', height: '3px'}} type="button" data-bs-target="#carouselDepoimento" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div className="carousel-inner" >
+                            <div className="carousel-item active" data-bs-interval="1900">
+                                <div className={styles.inicioDepoimentoSlide} style={{paddingBottom:'60px'}}>
+                                    <Image src={img2} alt="Image" width={75} height={56} />
+                                    <p>
+                                        "Ut elementum a elit sed tristique. Pellentesque sed semper erat.
+                                        Orci varius natoque penatibus et magnis dis parturient montes, 
+                                        nascetur ridiculus mus. Aenean quam erat, rutrum ut malesuada."
+                                    </p>
+                                    <h4>William Smith</h4>
+                                    <span>New Co-Founder</span>
+                                </div>
+                            </div>
+                            <div className="carousel-item" data-bs-interval="1900">
+                                <div className={styles.inicioDepoimentoSlide} style={{paddingBottom:'60px'}}>
+                                    <Image src={img2} alt="Image" width={75} height={56} />
+                                    <p>
+                                        "Quisque lacinia sed velit et maximus. Quisque dictum, lacus a 
+                                        malesuada finibus, arcu magna luctus risus, eu accumsan risus elit 
+                                        vitae lacus."
+                                    </p>
+                                    <h4>Vinny Smart</h4>
+                                    <span>Digital Marketer</span>
+                                </div>
+                            </div>
+                            <div className="carousel-item" data-bs-interval="1900">
+                                <div className={styles.inicioDepoimentoSlide} style={{paddingBottom:'60px'}}>
+                                    <Image src={img2} alt="Image" width={75} height={56} />
+                                    <p>
+                                        "Vestibulum mauris ipsum, tempor tincidunt justo sit amet, 
+                                        bibendum tincidunt dui. Aenean molestie, odio quis viverra 
+                                        ultricies, leo tellus lacinia neque, sit amet maximus tortor 
+                                        nunc aliquet felis."
+                                    </p>
+                                    <h4>Trevor Liam</h4>
+                                    <span>Technology Chef</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div className={styles.footerBox}>
                 <div className={styles.footerContent}>
                     <div className={styles.footerContentSobre}>

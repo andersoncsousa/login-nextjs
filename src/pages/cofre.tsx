@@ -208,8 +208,67 @@ export default function Cofre() {
                             <CardHeader>Card 4</CardHeader>
                         </Card>
                     </div>
+                    <div className={styles.boxCards}>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 5</CardHeader>
+                        </Card>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 6</CardHeader>
+                        </Card>
+                    </div>
+                    <div className={styles.boxCards}>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 7</CardHeader>
+                        </Card>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 8</CardHeader>
+                        </Card>
+                    </div>
+                    <div className={styles.boxCards}>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 9</CardHeader>
+                        </Card>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 10</CardHeader>
+                        </Card>
+                    </div>
+                    <div className={styles.boxCards}>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 11</CardHeader>
+                        </Card>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 12</CardHeader>
+                        </Card>
+                    </div>
+                    <div className={styles.boxCards}>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 13</CardHeader>
+                        </Card>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 14</CardHeader>
+                        </Card>
+                    </div>
+                    <div className={styles.boxCards}>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 15</CardHeader>
+                        </Card>
+                        <Card className={styles.cardsCofre}>
+                            <Image src={img} alt="Image" width={200} height={200} />
+                            <CardHeader>Card 16</CardHeader>
+                        </Card>
+                    </div>
                 </div>
-                
             </div>
         </Layout>
     );
