@@ -114,7 +114,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             },
             {
               content: (
-                <Link href="/home">
+                <Link href="/plataforma">
                   <a className="logo">ESPAÇO DE TRABALHO</a>
                 </Link>
               ),
