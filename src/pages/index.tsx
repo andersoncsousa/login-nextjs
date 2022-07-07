@@ -5,7 +5,7 @@ import '../styles/login';
 export default function Index() {
   const router = useRouter();
   useEffect(() => {
-    router.push('/home');
+    router.push('/login');
   }),
     [];
   return <div />;

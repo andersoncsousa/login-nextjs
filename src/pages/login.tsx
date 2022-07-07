@@ -6,7 +6,7 @@ export default function Login() {
   return (
     <div id="container">
       <Head>
-        <title>Login - Funnelever</title>
+        <title>Login</title>
         <meta name="description" content="Login" />
         <link rel="icon" href="/src/images/favicon.png" />
         <link
@@ -63,7 +63,6 @@ export default function Login() {
                 <i className="fas fa-lock icon-modify"></i>
                 <input type="password" placeholder="Senha" />
               </label>
-
               <button className="btn btn-second">Entrar</button>
             </form>
           </div>
